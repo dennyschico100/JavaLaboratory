@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="col-md-12 offset-md-0 text-white">
+            <nav class="active text-white navbar navbar-expand-lg  navbar-dark bg-dark ">
+                <a class="navbar-brand" href="escuela.jsp">ESCUELA</a>
+                <button class="text-light text-white navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle  navigation">
+                    <span class="text-light navbar-toggler-icon">
+                        <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav   ml-auto">
+                        <li class="nav-item active">
+                            <a href="inicioAdmin.jsp"  class="nav-link"  ><i class="fas fa-gamepad" ></i>    Home <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Usuarios
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a  class="dropdown-item" href="registrar.jsp">Agregar Nuevo</a>
+                                <div class="dropdown-divider"></div>
+                                <a  class="dropdown-item" href="CrudUsers.jsp">Ver Todos</a>
+                                
+
+                            </div>
+                            
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Reservaciones
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a  class="dropdown-item" href="historial.jsp">Historial de reservacione</a>
+                                <div class="dropdown-divider"></div>
+
+
+                            </div>
+                        </li>
+                        <li class="nav-item active dropdown" >
+                            <a class="nav-link  dropdown-toggle" href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Mi Perfil
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a  href="cambiar.jsp" class="dropdown-item" >Cambiar contraseña</a>
+                                <a href="salir.jsp" class="dropdown-item" >Cerrar Session</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+    </body>
+</html>
